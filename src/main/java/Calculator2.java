@@ -6,7 +6,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
-public class Calc2 extends Application {
+public class Calculator2 extends Application {
 
     private TextField display;
 
