@@ -25,7 +25,7 @@ public class CalculatorApp extends Application {
 
         display = new TextField();
         display.setEditable(false);
-        display.setMinWidth(300);
+        display.setMinWidth(200);
         GridPane.setColumnSpan(display, 4);
         grid.getChildren().add(display);
 
@@ -39,7 +39,7 @@ public class CalculatorApp extends Application {
         for (int i = 0; i < buttonLabels.length; i++) {
             for (int j = 0; j < buttonLabels[i].length; j++) {
                 Button button = new Button(buttonLabels[i][j]);
-                button.setMinWidth(75);
+                button.setMinWidth(100);
                 GridPane.setConstraints(button, j, i);
                 grid.getChildren().add(button);
 
@@ -47,7 +47,7 @@ public class CalculatorApp extends Application {
             }
         }
 
-        Scene scene = new Scene(grid, 300, 400);
+        Scene scene = new Scene(grid, 450, 165);
         primaryStage.setScene(scene);
 
         primaryStage.show();

@@ -49,7 +49,7 @@ public class Calculator2 extends Application {
             }
         }
 
-        Scene scene = new Scene(grid, 300, 400);
+        Scene scene = new Scene(grid, 400, 500);
         primaryStage.setScene(scene);
 
         primaryStage.show();

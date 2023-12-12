@@ -60,7 +60,7 @@ public class Calculator extends Application {
 //        layout.add(divideButton, 3, 1);
 //        layout.add(resultLabel, 0, 2, 4, 1);
 //
-//        Scene scene = new Scene(layout, 300, 200);
+//        Scene scene = new Scene(layout, 400, 300);
 //        stage.setScene(scene);
 //        stage.setTitle("Calculator");
 //        stage.show();
