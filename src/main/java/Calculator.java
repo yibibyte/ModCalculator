@@ -7,21 +7,21 @@ import javafx.stage.Stage;
 
 import java.awt.*;
 
-public class Calculator extends Application {
-    private TextField firstNumberTextField;
-    private TextField secondNumberTextField;
-    private Label resultLabel;
-
-    @Override
-    public void start(Stage stage) throws Exception {
-        firstNumberTextField = new TextField();
-        secondNumberTextField = new TextField();
-        resultLabel = new Label();
-
-        Button addButton = new Button("+");
-        Button subtractButton = new Button("-");
-        Button multiplyButton = new Button("*");
-        Button divideButton = new Button("/");
+public class Calculator /*extends Application*/ {
+//    private TextField firstNumberTextField;
+//    private TextField secondNumberTextField;
+//    private Label resultLabel;
+//
+//    @Override
+//    public void start(Stage stage) throws Exception {
+//        firstNumberTextField = new TextField();
+//        secondNumberTextField = new TextField();
+//        resultLabel = new Label();
+//
+//        Button addButton = new Button("+");
+//        Button subtractButton = new Button("-");
+//        Button multiplyButton = new Button("*");
+//        Button divideButton = new Button("/");
 
 //        addButton.setOnAction(event -> {
 //            int firstNumber = Integer.parseInt(firstNumberTextField.getText());
@@ -64,9 +64,9 @@ public class Calculator extends Application {
 //        stage.setScene(scene);
 //        stage.setTitle("Calculator");
 //        stage.show();
-    }
-
-    public static void main(String[] args) {
-        launch(args);
-    }
+//    }
+//
+//    public static void main(String[] args) {
+//        launch(args);
+//    }
 }
